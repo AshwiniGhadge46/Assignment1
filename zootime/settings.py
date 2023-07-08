@@ -70,23 +70,23 @@ WSGI_APPLICATION = 'zootime.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#     }
-# }
+ DATABASES = {
+     'default': {
+         'ENGINE': 'django.db.backends.sqlite3',
+         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+     }
+ }
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'zootime',
-        'USER': 'zootimesa',
-        'PASSWORD': 'Welcome1234',
-        'HOST':'zootime.cog3k7gbuo63.us-east-1.rds.amazonaws.com',
-        'PORT':'5432',
+#DATABASES = {
+ #   'default': {
+  #      'ENGINE': 'django.db.backends.postgresql',
+   #     'NAME': 'zootime',
+    #    'USER': 'zootimesa',
+     #   'PASSWORD': 'Welcome1234',
+      #  'HOST':'zootime.cog3k7gbuo63.us-east-1.rds.amazonaws.com',
+       # 'PORT':'5432',
 
-    }
+    #}
 }
 
 
